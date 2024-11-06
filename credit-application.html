@@ -46,6 +46,10 @@
         input[type="submit"]:hover {
             background-color: #218838;
         }
+        .footer {
+            text-align: center;
+            margin-top: 20px;
+        }
     </style>
 </head>
 <body>
@@ -55,7 +59,7 @@
     <h2>Credit Application</h2>
 </header>
 
-<form action="#" method="post">
+<form action="https://www.nickersonautosales.com" method="post">
     <h3>Applicant Information</h3>
     <label for="name">Full Name:</label>
     <input type="text" id="name" name="name" required>
@@ -86,6 +90,19 @@
     <label for="price">Price Range:</label>
     <input type="text" id="price" name="price" required>
 
+    <h3>Expenses</h3>
+    <label for="rent">Monthly Rent/Mortgage Payment:</label>
+    <input type="number" id="rent" name="rent" required>
+
+    <label for="utilities">Monthly Utilities (Electric, Water, etc.):</label>
+    <input type="number" id="utilities" name="utilities" required>
+
+    <label for="car_payment">Current Car Payment (if applicable):</label>
+    <input type="number" id="car_payment" name="car_payment" required>
+
+    <label for="other_expenses">Other Monthly Expenses:</label>
+    <input type="number" id="other_expenses" name="other_expenses" required>
+
     <h3>Acknowledgment</h3>
     <label>
         <input type="checkbox" required>
@@ -94,6 +111,10 @@
 
     <input type="submit" value="Submit Application">
 </form>
+
+<div class="footer">
+    <p>Visit our main website: <a href="https://www.nickersonautosales.com" target="_blank">Nickerson Auto Sales</a></p>
+</div>
 
 </body>
 </html>
