@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Credit Application - Buy Here Pay Here Dealership</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f4f4f4;
+            margin: 0;
+            padding: 20px;
+        }
+        header {
+            text-align: center;
+            margin-bottom: 30px;
+        }
+        form {
+            background: white;
+            padding: 20px;
+            border-radius: 5px;
+            box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+        }
+        h2 {
+            color: #333;
+        }
+        label {
+            display: block;
+            margin: 10px 0 5px;
+        }
+        input[type="text"], input[type="email"], input[type="number"], input[type="date"] {
+            width: 100%;
+            padding: 8px;
+            margin-bottom: 15px;
+            border: 1px solid #ccc;
+            border-radius: 4px;
+        }
+        input[type="submit"] {
+            background-color: #28a745;
+            color: white;
+            padding: 10px;
+            border: none;
+            border-radius: 4px;
+            cursor: pointer;
+        }
+        input[type="submit"]:hover {
+            background-color: #218838;
+        }
+    </style>
+</head>
+<body>
+
+<header>
+    <h1>Buy Here Pay Here Dealership</h1>
+    <h2>Credit Application</h2>
+</header>
+
+<form action="#" method="post">
+    <h3>Applicant Information</h3>
+    <label for="name">Full Name:</label>
+    <input type="text" id="name" name="name" required>
+
+    <label for="dob">Date of Birth:</label>
+    <input type="date" id="dob" name="dob" required>
+
+    <label for="ssn">Social Security Number:</label>
+    <input type="text" id="ssn" name="ssn" required>
+
+    <label for="address">Current Address:</label>
+    <input type="text" id="address" name="address" required>
+
+    <label for="phone">Phone Number:</label>
+    <input type="text" id="phone" name="phone" required>
+
+    <h3>Employment Information</h3>
+    <label for="employer">Employer Name:</label>
+    <input type="text" id="employer" name="employer" required>
+
+    <label for="income">Gross Monthly Income:</label>
+    <input type="number" id="income" name="income" required>
+
+    <h3>Vehicle Information</h3>
+    <label for="vehicle">Desired Vehicle Make/Model:</label>
+    <input type="text" id="vehicle" name="vehicle" required>
+
+    <label for="price">Price Range:</label>
+    <input type="text" id="price" name="price" required>
+
+    <h3>Acknowledgment</h3>
+    <label>
+        <input type="checkbox" required>
+        I authorize the dealership to obtain my credit report.
+    </label>
+
+    <input type="submit" value="Submit Application">
+</form>
+
+</body>
+</html>
